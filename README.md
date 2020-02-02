@@ -4,7 +4,7 @@ This first ever attempt to research the ability to uncover financial PDEs using 
 
 
 
-Train a model to predict option premiums (price call) using a large range of diverse data points (this has been done before, Hutchinson et al, 1994). Here we want to include known PDEs, known quantities of interest from known PDEs (i.e BS, Heston), quantities of interest from known PDEs, as well as true measurement data as inputs, basically whatever we can get our hands on to minimise the prediction error. Options metrics - S&P 500 stock index options probably.
+Train a model to predict option premiums (price call) using a large range of diverse data points (this has been done before, Hutchinson et al, 1994). Here we want to include known PDEs, known quantities of interest from known PDEs (i.e BS, Heston), as well as true measurement data as inputs, basically whatever we can get our hands on to minimise the prediction error. Options metrics - S&P 500 stock index options probably.
 
  
 
@@ -34,7 +34,6 @@ So in four steps, train model from all available data, create larger data set, s
     1. Modelling Emergent Behaviour and
     1. Automated Inference of Dynamics.
 
-  
   
   
   Acknowledgements:
