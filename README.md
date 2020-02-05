@@ -23,7 +23,7 @@ We don't just want to functionally approximate Black-Scholes and friends (that h
 So in four steps, train model from all available data, create larger data set, sufficient in size to learn the best differential terms. And train a new model against this simulated dataset but now isolate quantities of interest from known Financial PDEs, to make sure that regulators would respect the outcome and finally combine them in some sparse model.
 
 
-1. Can the Black-Scholes be rediscovered solely from time series data. 
+1. Additional: Can the Black-Scholes be rediscovered solely from time series data. 
 1. There are various wasy to go about discovering dynamical systems using data-driven discovery.
     1. Equation Free Modelling
     1. Artificial Neural Networks
